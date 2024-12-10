@@ -20,8 +20,9 @@
       "webAppName": {
         "value": "claraExerciseWebApp"
         
+      },
+      "keyVaultName": {
+        "value": "claraexercise-kv-2"
       }
     }
   }
-
- 
