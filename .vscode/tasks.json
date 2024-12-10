@@ -6,7 +6,7 @@
 			"label": "docker-build",
 			"platform": "python",
 			"dockerBuild": {
-				"tag": "msdocspythonflaskwebappquickstart2:latest",
+				"tag": "msdocspythonflaskwebappquickstart:latest",
 				"dockerfile": "${workspaceFolder}/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
@@ -20,8 +20,7 @@
 			],
 			"dockerRun": {
 				"env": {
-					"FLASK_APP": "app.py",
-					"FLASK_ENV": "DEV"
+					"FLASK_APP": "app.py"
 				}
 			},
 			"python": {
